@@ -6,4 +6,6 @@ object Models {
 
   final case class OrderChild(message: String)
 
+  final case class Instantiate(number: Int)
+
 }

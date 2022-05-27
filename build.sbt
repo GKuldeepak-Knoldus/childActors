@@ -7,7 +7,7 @@ lazy val root = (project in file("."))
     name := "childActors"
   )
 
-libraryDependencies ++= Seq("com.typesafe.akka" %% "akka-actor" % "2.6.19",
-   "com.typesafe.akka" %% "akka-actor-typed" % "2.6.19"
+libraryDependencies ++= Seq("com.typesafe.akka" %% "akka-actor" % "2.6.15",
+   "com.typesafe.akka" %% "akka-actor-typed" % "2.6.15"
 )
 
